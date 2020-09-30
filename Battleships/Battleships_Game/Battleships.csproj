@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <FileVersion>1.0.0</FileVersion>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Player.cs" />
+    <Compile Remove="Opponent.cs" />
+    <Compile Remove="PlayerShips.cs" />
+    <Compile Remove="Ships.cs" />
+  </ItemGroup>
+</Project>
